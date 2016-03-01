@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.abhiu.hw03frag">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/movie_icon"
+        android:label="Fragment_Abhilash"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HW03Activity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ViewPager_Activity" />
+        <activity android:name=".Master_Detail_Flow" />
+        <activity android:name=".Master_Detail"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.abhiu.hw03frag.Front_Page_Frag"
+    android:orientation="vertical"
+    android:id="@+id/front_page"
+    android:background="#bcdbf9">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 2"
+        android:id="@+id/btn_task2"
+        android:layout_alignTop="@+id/btn_about_me"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Task 3"
+        android:id="@+id/btn_task3"
+        android:layout_alignTop="@+id/btn_task2"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="About Me"
+        android:id="@+id/btn_about_me"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView"
+        android:src="@drawable/movies_android"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the world of movies"
+        android:id="@+id/textView"
+        android:layout_above="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#4d10a9"
+        android:textSize="20dp"
+        android:textColorHighlight="#e11111" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello People"
+        android:id="@+id/textView2"
+        android:layout_above="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>
